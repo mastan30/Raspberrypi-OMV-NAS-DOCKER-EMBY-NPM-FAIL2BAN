@@ -35,7 +35,7 @@ version: "2.3"
 
 5. First ensure you are running Raspbian buster 
  
- '''
+'''
     $using lsb_release -a
     Distributor ID: Raspbian
     Description: Raspbian GNU/Linux 10 (buster)
