@@ -50,3 +50,10 @@ Go to OMV dashboard
   password: openmediavault
 ```
 Change the default password
+
+There are setup guides for OMV in online, it's pretty straight forward.
+You can follow this: https://www.youtube.com/watch?v=iNRPHOWpvTo
+
+Once it is setup, go to OMV-Extras, install docker, restart OMV and then in OMV-Extras install portainer to manage contaienr in raspberry pi.
+
+
