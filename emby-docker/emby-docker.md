@@ -19,12 +19,12 @@ services:
       - "8920:8920"
     restart: unless-stopped
     volumes:
-      - /srv/dev-disk-by-uuid-3f0a28b0-c4c7-4c1d-b34a-7609f60ac241/Data/Config:/config #PrimarySSD
-      - /srv/dev-disk-by-uuid-3f0a28b0-c4c7-4c1d-b34a-7609f60ac241/Data/Movies:/data/movies #PrimarySSD
-      - /srv/dev-disk-by-uuid-3f0a28b0-c4c7-4c1d-b34a-7609f60ac241/Data/Photos:/data/photos #PrimarySSD
-      - /srv/dev-disk-by-uuid-cc6fd87a-1e94-4440-bf81-a9aae216459a/Data/Atmos:/data/atmos #SecondarySSD
-      - /srv/dev-disk-by-uuid-0297fbbf-88fe-42bb-9fe5-f8edbfad68a2/Data/MixedContent:/data/mixedcontent #FlashDrive1
-      - /srv/dev-disk-by-uuid-2ac3c9e9-ee7f-4403-ac81-d1b38c841df8/Data/Animated:/data/animated #FlashDrive2
+      - path/to/disk/Data/Config:/config #PrimarySSD
+      - path/to/disk/Data/Movies:/data/movies #PrimarySSD
+      - path/to/disk/Data/Photos:/data/photos #PrimarySSD
+      - path/to/disk/Data/Atmos:/data/atmos #SecondarySSD
+      - path/to/disk/Data/MixedContent:/data/mixedcontent #FlashDrive1
+      - path/to/disk/Data/Animated:/data/animated #FlashDrive2
 version: "2.3"
 
 ```
