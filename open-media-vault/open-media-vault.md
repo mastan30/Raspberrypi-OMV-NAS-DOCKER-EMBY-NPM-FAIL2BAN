@@ -1,7 +1,7 @@
 
 Connect to the Raspberry Pi
 ```
-$ ssh pi@yourlocalipaddress
+$ ssh pi@yourraspberrylocalipaddress
 ```
 password: raspberry
 
@@ -45,7 +45,7 @@ In the Address Reservation Section add the local Ip you want to associate with y
 
 Go to OMV dashboard
 ```
-  Example: http://192.168.1.124
+  Example: http://yourraspberrylocalipaddress
   username: admin
   password: openmediavault
 ```
