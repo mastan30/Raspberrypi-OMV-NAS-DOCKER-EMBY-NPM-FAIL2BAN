@@ -55,4 +55,4 @@ $sudo dpkg -i libseccomp2_2.5.1-1~bpo10+1_armhf.deb
 
 7. Check if emby is up by running yourraspberrylocalipaddress:8096 and setup emby
  
-
+ GUIDE to follow: https://youtu.be/x1a7PE-JPG8
