@@ -2,7 +2,7 @@
 
 2. Once logged in, In the Local, go to Stacks and add a new stack as below:
 
-'''
+```
 --- 
 services: 
   emby: 
@@ -27,7 +27,7 @@ services:
       - /srv/dev-disk-by-uuid-2ac3c9e9-ee7f-4403-ac81-d1b38c841df8/Data/Animated:/data/animated #FlashDrive2
 version: "2.3"
 
-'''
+```
 
 3. Deploy the stack and see the logs of the Container
 
@@ -35,23 +35,23 @@ version: "2.3"
 
 5. First ensure you are running Raspbian buster 
  
-'''
+```
     $using lsb_release -a
     Distributor ID: Raspbian
     Description: Raspbian GNU/Linux 10 (buster)
     Release: 10
     Codename: buster
-'''
+```
  
 
 6. Just run the following Command:
 
-'''
+```
 $wget http://ftp.debian.org/debian/pool/main/libs/libseccomp/libseccomp2_2.5.1-1~bpo10+1_armhf.deb
 
 $sudo dpkg -i libseccomp2_2.5.1-1~bpo10+1_armhf.deb 
 
-'''
+```
 
 7. Check if emby is up by running yourraspberrylocalipaddress:8096 and setup emby
  
