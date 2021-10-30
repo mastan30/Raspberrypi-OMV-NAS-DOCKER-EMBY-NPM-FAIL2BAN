@@ -1,6 +1,6 @@
 1. Login to Portainer using your credentials
 
-2. Once logged in, In the Local, go to Stacks and add a new stack as below:
+2. Once logged in, In the Local, go to Stacks and add a new stack as below (to get PGUID and PGID of the NAS user you are using , follow this guide https://docs.linuxserver.io/general/understanding-puid-and-pgid):
 
 ```
 --- 
