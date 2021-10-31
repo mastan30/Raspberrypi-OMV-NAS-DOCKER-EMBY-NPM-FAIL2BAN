@@ -1,4 +1,4 @@
-1. For this Config We can't use the Portainer as it doesn't support 3.1 at this time.
+1. For this Config We can't use the Portainer as it doesn't support version 3 docker-compose at this time.
 
 2. You need to create the following files in a custom directory you created eg: mkdir nginx
 
