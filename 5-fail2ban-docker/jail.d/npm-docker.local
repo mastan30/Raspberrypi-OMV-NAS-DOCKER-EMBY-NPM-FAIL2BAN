@@ -1,6 +1,6 @@
 [npm-docker]
 enabled = true
-ignoreip = 127.0.0.1/8 192.168.1.0/24
+ignoreip = 127.0.0.1/8 192.168.1.0/24 # your local IP subnets
 #chain = INPUT
 logpath = /log/npm/default-host_*.log
           /log/npm/proxy-host-*.log
