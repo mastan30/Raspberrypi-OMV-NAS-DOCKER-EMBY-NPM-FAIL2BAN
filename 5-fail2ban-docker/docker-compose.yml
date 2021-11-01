@@ -1,0 +1,20 @@
+version: "3.7"
+services:
+  fail2ban:
+    image: crazymax/fail2ban:latest
+    container_name: fail2ban_docker
+    network_mode: "host"
+    environment:
+      - TZ=US/Eastern
+      - F2B_LOG_TARGET=STDOUT
+      - F2B_LOG_LEVEL=INFO
+      - F2B_DB_PURGE_AGE=1d
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    volumes:
+      - "path/to/storage/fail2ban/data:/data"
+      - "path/to/storage/fail2ban/log/:/var/log/"
+      - "path/to/storage/nginxproxymanager/AppData/data/logs:/log/npm/:ro"
+	  - "path/to/storage/emby/logs:/log/emby/:ro"
+    restart: unless-stopped

@@ -1,0 +1,9 @@
+[emby]
+enabled = true
+#chain = INPUT
+logpath = /log/emby/embyserver.txt
+ignoreip = 127.0.0.1/8 192.168.0.0/24
+maxretry = 3
+bantime = 84600
+findtime = 60
+action = emby-docker-action
