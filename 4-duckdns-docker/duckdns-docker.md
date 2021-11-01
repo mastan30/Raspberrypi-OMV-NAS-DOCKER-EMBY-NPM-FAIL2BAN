@@ -30,7 +30,7 @@ services:
 
 6. Now try to hit the subdomian using https://yoursubdomain.duckdns.org see if you are able to get a page with either forbidden or home page of emby, your npm is working.
 
-7. Now in order to Emby to work , Go to Emby setting, in Network Enable remote connections and change the public ports to 80 for http, 443 for https. In the secure connection tab, select it's handled by reverse proxy. Try hitting the sudomain again, you should be able to get the home page.
+7. Now in order to Emby to work , Go to Emby setting, in Network Enable remote connections and change the public ports to 80 for http, 443 for https. In the secure connection selection, select it's handled by reverse proxy. Try hitting the sudomain again, you should be able to get the home page.
 
 
 Follow this guide for reference: https://www.youtube.com/watch?v=wrMn8sar-nA&list=PL9z5ElY5ntAZvTLNM99a2L98YMxMIqC_O&index=8
