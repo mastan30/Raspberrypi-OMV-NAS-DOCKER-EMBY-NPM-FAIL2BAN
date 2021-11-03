@@ -37,3 +37,5 @@ https://github.com/jc21/nginx-proxy-manager/issues/39#issuecomment-907795521 - s
 
 https://www.the-lazy-dev.com/en/install-fail2ban-with-docker/ - iptable commands etc ..
 
+https://r-pufky.github.io/docs/services/fail2ban/setup-docker.html
+
