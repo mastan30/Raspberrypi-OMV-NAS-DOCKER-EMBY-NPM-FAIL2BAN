@@ -58,6 +58,16 @@ Change the default password
 There are setup guides for OMV in online, it's pretty straight forward.
 You can follow this: https://www.youtube.com/watch?v=iNRPHOWpvTo
 
+
 Once it is setup, go to OMV-Extras, install docker, restart OMV and then in OMV-Extras install portainer to manage contaienr in raspberry pi.
 
 
+Also try to set static IPV4 and disable IPV 6 in network interfaces of OMV. In Static IPV4 Address settings:
+Go to network tab in OMV, select eth0 and click edit: Set IPV4 to static and then add the following
+
+```
+Address: your static Pi IP Address
+Subnet: 255.255.255.0
+Gateway : your router IP
+
+```
