@@ -24,8 +24,7 @@ sudo nano /etc/ssh/sshd_config
 
 Update
 ```
-$ sudo apt update
-$ sudo apt upgrade -y
+$ sudo apt-get update -y && sudo apt-get upgrade -y
 ```
 
 To avoid interface eth0 error
