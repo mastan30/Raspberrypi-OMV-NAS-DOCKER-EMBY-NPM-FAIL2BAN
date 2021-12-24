@@ -19,7 +19,7 @@ $ sudo raspi-config
 
 change ssh port: run the below command and comment out port and change value 22 to your desired port number
 ```
-sudo nano /etc/ssh/sshd_config
+sudo vi /etc/ssh/sshd_config
 ```
 
 Update
