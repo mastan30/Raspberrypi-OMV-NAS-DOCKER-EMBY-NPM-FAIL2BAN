@@ -10,3 +10,9 @@ docker network create -d macvlan \
 ```
 
 3. If you have docker portainer, open stacks section and create a new stack, run and start it or create your own docker compose yml in a directory and run docker docker-compose up -d
+
+4. If you are trying to block youtube ads, please try the following setup:
+
+```
+https://github.com/kboghdady/youTube_ads_4_pi-hole
+```
