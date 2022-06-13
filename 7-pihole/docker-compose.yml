@@ -1,0 +1,23 @@
+version: "3"
+services:
+  pihole:
+    container_name: pihole
+    image: pihole/pihole:latest
+    environment:
+      TZ: 'US/Eastern'
+      WEBPASSWORD: {$password}
+      ServerIP: {$vlan-ip}
+    volumes:
+      - {disk-path}/Data/AppData/pihole:/etc/pihole
+      - {disk-path}/Data/AppData/pihole/dnsmasq:/etc/dnsmasq.d
+    networks:
+      default:
+        ipv4_address: {$vlan-ip}
+    hostname: pihole
+    cap_add:
+      - NET_ADMIN
+    restart: unless-stopped
+networks:
+  default:
+    external: true
+    name: pihole_net
